@@ -134,7 +134,6 @@
                 "line": [
                     "1号线",
                     "9号线",
-                    "11号线",
                     "11号线"
                 ]
             },
@@ -855,7 +854,6 @@
                 "pinyin": "JiangSuLu",
                 "line": [
                     "2号线",
-                    "11号线",
                     "11号线"
                 ]
             },
@@ -1328,7 +1326,6 @@
                 "line": [
                     "3号线",
                     "4号线",
-                    "11号线",
                     "11号线"
                 ]
             },
@@ -1716,74 +1713,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "闵行开发区",
-                "pinyin": "MinHang KaiFaQu",
-                "line": [
-                    "5号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.369712,
-                    31.000627
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "文井路",
-                "pinyin": "WenJing Lu",
-                "line": [
-                    "5号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.380775,
-                    31.003597
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "华宁路",
-                "pinyin": "HuaNing Lu",
-                "line": [
-                    "5号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.395255,
-                    31.007467
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "金平路",
-                "pinyin": "JinPing Lu",
-                "line": [
-                    "5号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.410186,
-                    31.011282
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "东川路",
                 "pinyin": "DongChuan Lu",
                 "line": [
@@ -2033,7 +1962,6 @@
                 "line": [
                     "6号线",
                     "8号线",
-                    "11号线",
                     "11号线"
                 ]
             },
@@ -4221,7 +4149,6 @@
                 "line": [
                     "10号线",
                     "10号线",
-                    "11号线",
                     "11号线"
                 ]
             },
@@ -4356,91 +4283,7 @@
                 ]
             }
         },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "上海动物园",
-                "pinyin": "ShangHai DongWuYuan",
-                "line": [
-                    "10号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.368137,
-                    31.190246
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "虹桥1号航站楼",
-                "pinyin": "HongQiao 1 Hao HangZhanLou",
-                "line": [
-                    "10号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.347371,
-                    31.191363
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "嘉定北",
-                "pinyin": "JiaDing Bei",
-                "line": [
-                    "11号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.23735,
-                    31.391549
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "嘉定西",
-                "pinyin": "Jia DingXi",
-                "line": [
-                    "11号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.227855,
-                    31.377107
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "白银路",
-                "pinyin": "BaiYin Lu",
-                "line": [
-                    "11号线"
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    121.24535,
-                    31.345359
-                ]
-            }
-        },
+        
         {
             "type": "Feature",
             "properties": {
@@ -4866,7 +4709,6 @@
                 "name": "迪士尼",
                 "pinyin": "DiShiNi",
                 "line": [
-                    "11号线",
                     "11号线"
                 ]
             },

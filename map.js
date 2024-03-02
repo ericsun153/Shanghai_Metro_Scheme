@@ -87,22 +87,6 @@ map.on('load', async function () {
     'data': './data/shanghai.geojson'
   })
 
-  // layer circle
-  map.addLayer({
-    id: 'layer_metro_station',
-    type: 'circle',
-    source: 'source_metro_station',
-    paint: {
-      'circle-radius': 4,
-      'circle-color': 'skyblue',
-      'circle-opacity': 0.5,
-      'circle-stroke-color': '#fff',
-      'circle-stroke-opacity': 1,
-      'circle-stroke-width': 1,
-    },
-    // filter:['in',['get', 'line'], ['literal', ['99999']]]
-  });
-
   // layer line
   map.addLayer({
     id: 'layer_metro_line',
@@ -114,6 +98,22 @@ map.on('load', async function () {
       'line-opacity': 1
     },
     // filter: ['==', ['get', 'shortName'], '11号线']
+  });
+
+  // layer circle
+  map.addLayer({
+    id: 'layer_metro_station',
+    type: 'circle',
+    source: 'source_metro_station',
+    paint: {
+      'circle-radius': 3.5,
+      'circle-color': 'skyblue',
+      'circle-opacity': 0.5,
+      'circle-stroke-color': '#fff',
+      'circle-stroke-opacity': 1,
+      'circle-stroke-width': .8,
+    },
+    // filter:['in',['get', 'line'], ['literal', ['99999']]]
   });
 
   var mypopup = new mapboxgl.Popup({
@@ -147,9 +147,16 @@ map.on('load', async function () {
 
   const sections = $('.section');
   let currentSection = 0;
-
+  let goingon = true;
   $(window).on('wheel', function (e) {
     console.log(e.originalEvent.deltaY, currentSection)
+    // 防抖
+    if(!goingon) return;
+    goingon = false;
+    setTimeout(()=>{
+      goingon = true
+    },1200)
+
     if (e.originalEvent.deltaY < 0) { // 向上滚动  
       if (currentSection === 0) {
         window.parent.goPageOne()  // 首页上一屏
