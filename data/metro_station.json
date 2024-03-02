@@ -1,0 +1,6636 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "莘庄",
+                "pinyin": "XinZhuang",
+                "line": [
+                    "1号线",
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.385373,
+                    31.111152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "外环路",
+                "pinyin": "WaiHuan Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.39302,
+                    31.120899
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "莲花路",
+                "pinyin": "LianHua Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.40291,
+                    31.1309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "锦江乐园",
+                "pinyin": "JinJiangLeYuan",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.414107,
+                    31.142217
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海南站",
+                "pinyin": "ShangHai NanZhan",
+                "line": [
+                    "1号线",
+                    "3号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.430041,
+                    31.154579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "漕宝路",
+                "pinyin": "CaoBao Lu",
+                "line": [
+                    "1号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.433143,
+                    31.168344
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海体育馆",
+                "pinyin": "ShangHai TiYuGuan",
+                "line": [
+                    "1号线",
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.437423,
+                    31.182813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "徐家汇",
+                "pinyin": "XuJiaHui",
+                "line": [
+                    "1号线",
+                    "9号线",
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.436837,
+                    31.195338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "衡山路",
+                "pinyin": "HengShan Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.446424,
+                    31.204528
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "常熟路",
+                "pinyin": "ChangShu Lu",
+                "line": [
+                    "1号线",
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.449141,
+                    31.213524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陕西南路",
+                "pinyin": "ShaanXi NanLu",
+                "line": [
+                    "1号线",
+                    "10号线",
+                    "10号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.458744,
+                    31.21515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "一大会址·黄陂南路",
+                "pinyin": "Yi DaHui Zhi HuangPi NanLu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.473306,
+                    31.222745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "人民广场",
+                "pinyin": "RenMin GuangChang",
+                "line": [
+                    "1号线",
+                    "2号线",
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.475137,
+                    31.232781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "新闸路",
+                "pinyin": "XinZha Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.468151,
+                    31.238373
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "汉中路",
+                "pinyin": "HanZhong Lu",
+                "line": [
+                    "1号线",
+                    "12号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.458699,
+                    31.241883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海火车站",
+                "pinyin": "ShangHai HuoCheZhan",
+                "line": [
+                    "1号线",
+                    "3号线",
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.457939,
+                    31.249632
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中山北路",
+                "pinyin": "ZhongShan BeiLu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.459204,
+                    31.258891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "延长路",
+                "pinyin": "YanChang Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.455329,
+                    31.271675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海马戏城",
+                "pinyin": "ShangHai MaXiCheng",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.452023,
+                    31.279895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "汶水路",
+                "pinyin": "WenShui Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.450251,
+                    31.292556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "彭浦新村",
+                "pinyin": "PengPuXinCun",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.448642,
+                    31.306604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "共康路",
+                "pinyin": "GongKang Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.447063,
+                    31.318936
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "通河新村",
+                "pinyin": "TongHe XinCun",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.441546,
+                    31.33113
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "呼兰路",
+                "pinyin": "HuLan Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.437711,
+                    31.339703
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "共富新村",
+                "pinyin": "GongFu XinCun",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.434063,
+                    31.355082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宝安公路",
+                "pinyin": "BaoAn GongLu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.430914,
+                    31.369555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "友谊西路",
+                "pinyin": "YouYi XiLu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.427953,
+                    31.381296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "富锦路",
+                "pinyin": "FuJin Lu",
+                "line": [
+                    "1号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.424661,
+                    31.39226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦东国际机场",
+                "pinyin": "PuDong GuoJi JiChang",
+                "line": [
+                    "2号线",
+                    "磁悬浮"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.805591,
+                    31.150958
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "海天三路",
+                "pinyin": "HaiTian San Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.796878,
+                    31.168459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "远东大道",
+                "pinyin": "YuanDong DaDao",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.755301,
+                    31.199385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "凌空路",
+                "pinyin": "LingKong Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.724095,
+                    31.192861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "川沙",
+                "pinyin": "ChuanSha",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.69821,
+                    31.186741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华夏东路",
+                "pinyin": "HuaXia DongLu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.680972,
+                    31.196575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "创新中路",
+                "pinyin": "ChuangXin ZhongLu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.673713,
+                    31.213871
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "唐镇",
+                "pinyin": "TangZhen",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.656269,
+                    31.214107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "广兰路",
+                "pinyin": "GuangLan Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.621072,
+                    31.21105
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金科路",
+                "pinyin": "JinKe Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.601989,
+                    31.204213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "张江高科",
+                "pinyin": "ZhangJiang GaoKe",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.587687,
+                    31.201832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙阳路",
+                "pinyin": "LongYang Lu",
+                "line": [
+                    "2号线",
+                    "7号线",
+                    "16号线",
+                    "磁悬浮"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.557634,
+                    31.203575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "世纪公园",
+                "pinyin": "ShiJi GongYuan",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.550909,
+                    31.209421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海科技馆",
+                "pinyin": "ShangHai KeJiGuan",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.544439,
+                    31.21882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "世纪大道",
+                "pinyin": "ShiJi DaDao",
+                "line": [
+                    "2号线",
+                    "4号线",
+                    "6号线",
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.527213,
+                    31.228682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东昌路",
+                "pinyin": "DongChang Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.515556,
+                    31.23327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陆家嘴",
+                "pinyin": "LuJiaZui",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.502262,
+                    31.238195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南京东路",
+                "pinyin": "NanJing DongLu",
+                "line": [
+                    "2号线",
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.484628,
+                    31.238101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南京西路",
+                "pinyin": "NanJing XiLu",
+                "line": [
+                    "2号线",
+                    "12号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.459971,
+                    31.229853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "静安寺",
+                "pinyin": "JingAnSi",
+                "line": [
+                    "2号线",
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.446221,
+                    31.223083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江苏路",
+                "pinyin": "JiangSuLu",
+                "line": [
+                    "2号线",
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.430642,
+                    31.220411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中山公园",
+                "pinyin": "ZhongShan GongYuan",
+                "line": [
+                    "2号线",
+                    "3号线",
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.415773,
+                    31.217948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "娄山关路",
+                "pinyin": "LouShanGuan Lu",
+                "line": [
+                    "2号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.404058,
+                    31.211158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "威宁路",
+                "pinyin": "WeiNing Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.387285,
+                    31.21487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "北新泾",
+                "pinyin": "BeiXinJing",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.373998,
+                    31.216395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "淞虹路",
+                "pinyin": "SongHong Lu",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.359588,
+                    31.218212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹桥2号航站楼",
+                "pinyin": "HongQiao 2 Hao HangZhanLou",
+                "line": [
+                    "2号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3263,
+                    31.194211
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹桥火车站",
+                "pinyin": "HongQiao HuoCheZhan",
+                "line": [
+                    "2号线",
+                    "10号线",
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.31895,
+                    31.194022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "徐泾东",
+                "pinyin": "Xu JingDong",
+                "line": [
+                    "2号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.299204,
+                    31.188367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江杨北路",
+                "pinyin": "JiangYang BeiLu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.439819,
+                    31.407858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "铁力路",
+                "pinyin": "TieLi Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.461139,
+                    31.40812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "友谊路",
+                "pinyin": "YouYi Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.475924,
+                    31.404016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宝杨路",
+                "pinyin": "BaoYang Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.479574,
+                    31.395315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "水产路",
+                "pinyin": "ShuiChan Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.488247,
+                    31.381302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "淞滨路",
+                "pinyin": "SongBin Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.492818,
+                    31.370928
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "张华浜",
+                "pinyin": "ZhangHuaBang",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.498671,
+                    31.358016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "淞发路",
+                "pinyin": "SongFa Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.50039,
+                    31.345135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "长江南路",
+                "pinyin": "ChangJiang NanLu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.491482,
+                    31.332062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "殷高西路",
+                "pinyin": "YinGao XiLu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.484856,
+                    31.320005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江湾镇",
+                "pinyin": "JiangWanZhen",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.485064,
+                    31.305566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大柏树",
+                "pinyin": "DaBaiShu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.483216,
+                    31.289433
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "赤峰路",
+                "pinyin": "ChiFeng Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.482429,
+                    31.281247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹口足球场",
+                "pinyin": "HongKou ZuQiuChang",
+                "line": [
+                    "3号线",
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.479154,
+                    31.271392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东宝兴路",
+                "pinyin": "DongBaoXing Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.480202,
+                    31.259886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宝山路",
+                "pinyin": "BaoShan Lu",
+                "line": [
+                    "3号线",
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.476298,
+                    31.251523
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中潭路",
+                "pinyin": "ZhongTan Lu",
+                "line": [
+                    "3号线",
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.441001,
+                    31.254568
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "镇坪路",
+                "pinyin": "ZhenPing Lu",
+                "line": [
+                    "3号线",
+                    "4号线",
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.429779,
+                    31.246369
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "曹杨路",
+                "pinyin": "CaoYang Lu",
+                "line": [
+                    "3号线",
+                    "4号线",
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.417701,
+                    31.239302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金沙江路",
+                "pinyin": "JinShaJiang Lu",
+                "line": [
+                    "3号线",
+                    "4号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.41315,
+                    31.232004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "延安西路",
+                "pinyin": "YanAn XiLu",
+                "line": [
+                    "3号线",
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.417062,
+                    31.209616
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹桥路",
+                "pinyin": "HongQiao Lu",
+                "line": [
+                    "3号线",
+                    "4号线",
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.420814,
+                    31.197524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宜山路",
+                "pinyin": "YiShan Lu",
+                "line": [
+                    "3号线",
+                    "4号线",
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.427194,
+                    31.186717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "漕溪路",
+                "pinyin": "CaoXi Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.43841,
+                    31.176746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙漕路",
+                "pinyin": "LongCao Lu",
+                "line": [
+                    "3号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.444383,
+                    31.169458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "石龙路",
+                "pinyin": "ShiLong Lu",
+                "line": [
+                    "3号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.443205,
+                    31.157949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "海伦路",
+                "pinyin": "HaiLun Lu",
+                "line": [
+                    "4号线",
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.488697,
+                    31.259303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "临平路",
+                "pinyin": "LinPing Lu",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.500696,
+                    31.260874
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大连路",
+                "pinyin": "DaLian Lu",
+                "line": [
+                    "4号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.513088,
+                    31.257938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "杨树浦路",
+                "pinyin": "YangShuPu Lu",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.51721,
+                    31.251935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦东大道",
+                "pinyin": "PuDong DaDao",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.519385,
+                    31.239974
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦电路(4号线)",
+                "pinyin": "PuDian Lu (4 Hao Xian)",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.53208,
+                    31.222285
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "蓝村路",
+                "pinyin": "LanCun Lu",
+                "line": [
+                    "4号线",
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.527627,
+                    31.211672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "塘桥",
+                "pinyin": "TangQiao",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.51869,
+                    31.209762
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南浦大桥",
+                "pinyin": "NanPu DaQiao",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.499725,
+                    31.208504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "西藏南路",
+                "pinyin": "XiZang NanLu",
+                "line": [
+                    "4号线",
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.489555,
+                    31.201967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "鲁班路",
+                "pinyin": "LuBan Lu",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.475148,
+                    31.199221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大木桥路",
+                "pinyin": "DaMuQiao Lu",
+                "line": [
+                    "4号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.463278,
+                    31.194057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东安路",
+                "pinyin": "DongAn Lu",
+                "line": [
+                    "4号线",
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.454897,
+                    31.190819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海体育场",
+                "pinyin": "ShangHai TiYuChang",
+                "line": [
+                    "4号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.443529,
+                    31.185605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "闵行开发区",
+                "pinyin": "MinHang KaiFaQu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.369712,
+                    31.000627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "文井路",
+                "pinyin": "WenJing Lu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.380775,
+                    31.003597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华宁路",
+                "pinyin": "HuaNing Lu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.395255,
+                    31.007467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金平路",
+                "pinyin": "JinPing Lu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.410186,
+                    31.011282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东川路",
+                "pinyin": "DongChuan Lu",
+                "line": [
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.419901,
+                    31.018197
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "剑川路",
+                "pinyin": "JianChuan Lu",
+                "line": [
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.416582,
+                    31.026483
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "北桥",
+                "pinyin": "BeiQiao",
+                "line": [
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.410054,
+                    31.045112
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "颛桥",
+                "pinyin": "ZhuanQiao",
+                "line": [
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.401868,
+                    31.067013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "银都路",
+                "pinyin": "YinDu Lu",
+                "line": [
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.390264,
+                    31.089345
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "春申路",
+                "pinyin": "ChunShen Lu",
+                "line": [
+                    "5号线",
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.385818,
+                    31.09825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江川路",
+                "pinyin": "JiangChuan Lu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.423474,
+                    31.005428
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "西渡",
+                "pinyin": "XiDu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.432441,
+                    30.98935
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "萧塘",
+                "pinyin": "XiaoTang",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.441857,
+                    30.965888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "奉浦大道",
+                "pinyin": "FengPu DaDao",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.448984,
+                    30.942055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "环城东路",
+                "pinyin": "HuanCheng DongLu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.463204,
+                    30.931168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "望园路",
+                "pinyin": "WangYuan Lu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.48358,
+                    30.93194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金海湖",
+                "pinyin": "JinHaiHu",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.492506,
+                    30.928805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "奉贤新城",
+                "pinyin": "FengXian XinCheng",
+                "line": [
+                    "5号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.49629,
+                    30.913916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东方体育中心",
+                "pinyin": "DongFang TiYuZhongXin",
+                "line": [
+                    "6号线",
+                    "8号线",
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.480304,
+                    31.153366
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "灵岩南路",
+                "pinyin": "LingYan NanLu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.495295,
+                    31.148665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上南路",
+                "pinyin": "ShangNanLu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.506151,
+                    31.14903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华夏西路",
+                "pinyin": "HuaXia XiLu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.514539,
+                    31.149878
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "高青路",
+                "pinyin": "GaoQing Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.515787,
+                    31.159907
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东明路",
+                "pinyin": "dong ming lu",
+                "line": [
+                    "6号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.510868,
+                    31.172646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "高科西路",
+                "pinyin": "GaoKe XiLu",
+                "line": [
+                    "6号线",
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.509845,
+                    31.185761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "临沂新村",
+                "pinyin": "LinYi XinCun",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.516695,
+                    31.193202
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海儿童医学中心",
+                "pinyin": "ShangHai ErTong YiXue ZhongXin",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.523482,
+                    31.203277
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦电路(6号线)",
+                "pinyin": "PuDian Lu (6 Hao Xian)",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.529122,
+                    31.220104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "源深体育中心",
+                "pinyin": "YuanShen TiYu ZhongXin",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.534642,
+                    31.233004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "民生路",
+                "pinyin": "MinShengLu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.543527,
+                    31.235851
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "北洋泾路",
+                "pinyin": "BeiYangJing Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.552314,
+                    31.239145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "德平路",
+                "pinyin": "DePing Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.564237,
+                    31.2454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "云山路",
+                "pinyin": "YunShan Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.572775,
+                    31.250413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金桥路",
+                "pinyin": "JinQiao Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.581817,
+                    31.257084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "博兴路",
+                "pinyin": "BoXing Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.586689,
+                    31.26352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "五莲路",
+                "pinyin": "WuLian Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.587866,
+                    31.272025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "巨峰路",
+                "pinyin": "JuFeng Lu",
+                "line": [
+                    "6号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.588365,
+                    31.280684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东靖路",
+                "pinyin": "DongJing Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.588736,
+                    31.290684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "五洲大道",
+                "pinyin": "WuZhou DaDao",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.589212,
+                    31.302569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "洲海路",
+                "pinyin": "ZhouHai Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.589396,
+                    31.312229
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "外高桥保税区南",
+                "pinyin": "WaiGaoQiao BaoShuiQu Nan",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.601963,
+                    31.321578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "航津路",
+                "pinyin": "HangJin Lu",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.593974,
+                    31.335371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "外高桥保税区北",
+                "pinyin": "WaiGaoQiao BaoShuiQu Bei",
+                "line": [
+                    "6号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.586926,
+                    31.347802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "港城路",
+                "pinyin": "GangCheng Lu",
+                "line": [
+                    "6号线",
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.574752,
+                    31.353005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "花木路",
+                "pinyin": "HuaMu Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.562754,
+                    31.211212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "芳华路",
+                "pinyin": "FangHua Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.550115,
+                    31.19311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "锦绣路",
+                "pinyin": "JinXiu Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.540041,
+                    31.187592
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "杨高南路",
+                "pinyin": "YangGao NanLu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.525087,
+                    31.187566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "云台路",
+                "pinyin": "YunTai Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.500439,
+                    31.182212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "耀华路",
+                "pinyin": "YaoHua Lu",
+                "line": [
+                    "7号线",
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.494612,
+                    31.178513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "长清路",
+                "pinyin": "chang qing lu",
+                "line": [
+                    "7号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.487775,
+                    31.174452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "后滩",
+                "pinyin": "HouTan",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.473756,
+                    31.171918
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙华中路",
+                "pinyin": "LongHua ZhongLu",
+                "line": [
+                    "7号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.457054,
+                    31.183843
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "肇嘉浜路",
+                "pinyin": "ZhaoJiaBang Lu",
+                "line": [
+                    "7号线",
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.450212,
+                    31.199436
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "昌平路",
+                "pinyin": "ChangPing Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.442617,
+                    31.233749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "长寿路",
+                "pinyin": "ChangShou Lu",
+                "line": [
+                    "7号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.438272,
+                    31.24086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "岚皋路",
+                "pinyin": "LanGao Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.421939,
+                    31.256198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "新村路",
+                "pinyin": "XinCun Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.422682,
+                    31.263952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大华三路",
+                "pinyin": "DaHua San Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.422949,
+                    31.274047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "行知路",
+                "pinyin": "XingZhiLu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.421493,
+                    31.284942
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大场镇",
+                "pinyin": "DaChangZhen",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.416548,
+                    31.29332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "场中路",
+                "pinyin": "ChangZhong Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.413661,
+                    31.303685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上大路",
+                "pinyin": "ShangDa Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.40858,
+                    31.315071
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南陈路",
+                "pinyin": "NanChen Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.398863,
+                    31.321437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海大学",
+                "pinyin": "ShangHai DaXue",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.388884,
+                    31.320586
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "祁华路",
+                "pinyin": "QiHua Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.373569,
+                    31.322315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "顾村公园",
+                "pinyin": "GuCun GongYuan",
+                "line": [
+                    "7号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.373009,
+                    31.344594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "刘行",
+                "pinyin": "LiuHang",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.362376,
+                    31.357586
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "潘广路",
+                "pinyin": "PanGuang Lu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.355845,
+                    31.364182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "罗南新村",
+                "pinyin": "LuoNan XinCun",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.35747,
+                    31.388831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "美兰湖",
+                "pinyin": "MeiLanHu",
+                "line": [
+                    "7号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.349966,
+                    31.401949
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "沈杜公路",
+                "pinyin": "ShenDu GongLu",
+                "line": [
+                    "8号线",
+                    "浦江线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.512272,
+                    31.061427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "联航路",
+                "pinyin": "LianHang Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.510594,
+                    31.073567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江月路",
+                "pinyin": "JiangYue Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.508603,
+                    31.084253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦江镇",
+                "pinyin": "PuJiangZhen",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.506272,
+                    31.09659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "芦恒路",
+                "pinyin": "LuHeng Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.497842,
+                    31.119015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "凌兆新村",
+                "pinyin": "LingZhao XinCun",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.489663,
+                    31.141301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "杨思",
+                "pinyin": "YangSi",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.493443,
+                    31.161054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "成山路",
+                "pinyin": "cheng shan lu",
+                "line": [
+                    "8号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.49622,
+                    31.170735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中华艺术宫",
+                "pinyin": "ZhongHua YiShu Gong",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.493626,
+                    31.185242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陆家浜路",
+                "pinyin": "LuJiaBang Lu",
+                "line": [
+                    "8号线",
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.486115,
+                    31.211789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "老西门",
+                "pinyin": "LaoXiMen",
+                "line": [
+                    "8号线",
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.483793,
+                    31.219014
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大世界",
+                "pinyin": "DaShiJie",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.479326,
+                    31.227182
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "曲阜路",
+                "pinyin": "QuFu Lu",
+                "line": [
+                    "8号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.471543,
+                    31.242307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中兴路",
+                "pinyin": "ZhongXing Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.469026,
+                    31.253228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "西藏北路",
+                "pinyin": "XiZang BeiLu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.468769,
+                    31.263505
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "曲阳路",
+                "pinyin": "QuYang Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.491138,
+                    31.276524
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "四平路",
+                "pinyin": "SiPing Lu",
+                "line": [
+                    "8号线",
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.501488,
+                    31.27488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "鞍山新村",
+                "pinyin": "AnShan XinCun",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.509685,
+                    31.273242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江浦路",
+                "pinyin": "JiangPu Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.518379,
+                    31.274946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "黄兴路",
+                "pinyin": "HuangXing Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.528401,
+                    31.278814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "延吉中路",
+                "pinyin": "YanJi ZhongLu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.534941,
+                    31.288543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "黄兴公园",
+                "pinyin": "HuangXing GongYuan",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.533383,
+                    31.295389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "翔殷路",
+                "pinyin": "XiangYin Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.531974,
+                    31.305002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嫩江路",
+                "pinyin": "NenJiang Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.531954,
+                    31.314804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "市光路",
+                "pinyin": "ShiGuang Lu",
+                "line": [
+                    "8号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.531933,
+                    31.322724
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "曹路",
+                "pinyin": "CaoLu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.683046,
+                    31.271272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "民雷路",
+                "pinyin": "MinLei Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.668125,
+                    31.268335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "顾唐路",
+                "pinyin": "GuTang Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.656465,
+                    31.266074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金海路",
+                "pinyin": "JinHai Lu",
+                "line": [
+                    "9号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.638629,
+                    31.263141
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金吉路",
+                "pinyin": "JinJi Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.628479,
+                    31.264309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金桥",
+                "pinyin": "JinQiao",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.611336,
+                    31.26085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "台儿庄路",
+                "pinyin": "TaiErZhuang Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.597458,
+                    31.252825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "蓝天路",
+                "pinyin": "LanTian Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.577978,
+                    31.241017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "芳甸路",
+                "pinyin": "FangDian Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.558431,
+                    31.231845
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "杨高中路",
+                "pinyin": "YangGao ZhongLu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.548664,
+                    31.22751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "商城路",
+                "pinyin": "ShangCheng Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.516275,
+                    31.230258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "小南门",
+                "pinyin": "XiaoNanMen",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.498398,
+                    31.216866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "马当路",
+                "pinyin": "MaDang Lu",
+                "line": [
+                    "9号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.477256,
+                    31.20952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "打浦桥",
+                "pinyin": "DaPuQiao",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.468681,
+                    31.206309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嘉善路",
+                "pinyin": "JiaShan Lu",
+                "line": [
+                    "9号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.460704,
+                    31.20282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "桂林路",
+                "pinyin": "GuiLin Lu",
+                "line": [
+                    "9号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.418064,
+                    31.174791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "漕河泾开发区",
+                "pinyin": "CaoHeJing KaiFaQu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.397769,
+                    31.170644
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "合川路",
+                "pinyin": "HeChuan Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.384772,
+                    31.166542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "星中路",
+                "pinyin": "XingZhong Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.368903,
+                    31.158109
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "七宝",
+                "pinyin": "QiBao",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.349221,
+                    31.155287
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中春路",
+                "pinyin": "ZhongChun Lu",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.3377,
+                    31.149415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "九亭",
+                "pinyin": "JiuTing",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.319423,
+                    31.137252
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "泗泾",
+                "pinyin": "SiJing",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.260247,
+                    31.118272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "佘山",
+                "pinyin": "SheShan",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.229686,
+                    31.104097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "洞泾",
+                "pinyin": "DongJing",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.230473,
+                    31.084492
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "松江大学城",
+                "pinyin": "SongJiang DaXueCheng",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.232577,
+                    31.053984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "松江新城",
+                "pinyin": "SongJiang XinCheng",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.230739,
+                    31.030295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "松江体育中心",
+                "pinyin": "SongJiang TiYuZhongXin",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.230504,
+                    31.016038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "醉白池",
+                "pinyin": "ZuiBaiChi",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.229361,
+                    31.001125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "松江南站",
+                "pinyin": "SongJiang NanZhan",
+                "line": [
+                    "9号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.230884,
+                    30.984818
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "基隆路",
+                "pinyin": "JiLong Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.590411,
+                    31.351311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "高桥",
+                "pinyin": "GaoQiao",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.562971,
+                    31.352622
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "高桥西",
+                "pinyin": "Gao QiaoXi",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.54928,
+                    31.351489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "双江路",
+                "pinyin": "ShuangJiang Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.539425,
+                    31.353601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "国帆路",
+                "pinyin": "GuoFan Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.513238,
+                    31.339761
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "新江湾城",
+                "pinyin": "XinJiangWanCheng",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.506951,
+                    31.328496
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "殷高东路",
+                "pinyin": "YinGao DongLu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.506797,
+                    31.321768
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "三门路",
+                "pinyin": "SanMen Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.50834,
+                    31.313214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江湾体育场",
+                "pinyin": "JiangWan TiYuChang",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.513314,
+                    31.304293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "五角场",
+                "pinyin": "WuJiaoChang",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.514632,
+                    31.298043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "国权路",
+                "pinyin": "GuoQuan Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.510024,
+                    31.289276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "同济大学",
+                "pinyin": "TongJi DaXue",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.506357,
+                    31.282086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "邮电新村",
+                "pinyin": "YouDian XinCun",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.494362,
+                    31.268533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "四川北路",
+                "pinyin": "SiChuan BeiLu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.484208,
+                    31.252035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "天潼路",
+                "pinyin": "TianTong Lu",
+                "line": [
+                    "10号线",
+                    "10号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.482473,
+                    31.243829
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "豫园",
+                "pinyin": "YuYuan",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.487473,
+                    31.227801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "一大会址·新天地",
+                "pinyin": "Yi DaHui Zhi XinTianDi",
+                "line": [
+                    "10号线",
+                    "10号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.475182,
+                    31.216367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海图书馆",
+                "pinyin": "ShangHai TuShuGuan",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.444363,
+                    31.20796
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "交通大学",
+                "pinyin": "JiaoTong DaXue",
+                "line": [
+                    "10号线",
+                    "10号线",
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.435253,
+                    31.202213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宋园路",
+                "pinyin": "SongYuan Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.41208,
+                    31.19654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "伊犁路",
+                "pinyin": "YiLi Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.403899,
+                    31.19888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "水城路",
+                "pinyin": "ShuiCheng Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.392259,
+                    31.199482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙溪路",
+                "pinyin": "LongXi Lu",
+                "line": [
+                    "10号线",
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.380034,
+                    31.1944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙柏新村",
+                "pinyin": "LongBai XinCun",
+                "line": [
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.37048,
+                    31.176882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "紫藤路",
+                "pinyin": "ZiTeng Lu",
+                "line": [
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.364831,
+                    31.169674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "航中路",
+                "pinyin": "HangZhong Lu",
+                "line": [
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.355336,
+                    31.165417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海动物园",
+                "pinyin": "ShangHai DongWuYuan",
+                "line": [
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.368137,
+                    31.190246
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹桥1号航站楼",
+                "pinyin": "HongQiao 1 Hao HangZhanLou",
+                "line": [
+                    "10号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.347371,
+                    31.191363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嘉定北",
+                "pinyin": "JiaDing Bei",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.23735,
+                    31.391549
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嘉定西",
+                "pinyin": "Jia DingXi",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.227855,
+                    31.377107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "白银路",
+                "pinyin": "BaiYin Lu",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.24535,
+                    31.345359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嘉定新城",
+                "pinyin": "JiaDingXinCheng",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.254294,
+                    31.330062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "马陆",
+                "pinyin": "MaLu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.276906,
+                    31.319675
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陈翔公路",
+                "pinyin": "ChenXiang GongLu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.306723,
+                    31.306573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南翔",
+                "pinyin": "NanXiang",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.323141,
+                    31.296952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "桃浦新村",
+                "pinyin": "TaoPu XinCun",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.349623,
+                    31.281603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "武威路",
+                "pinyin": "WuWei Lu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.364678,
+                    31.276646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "祁连山路",
+                "pinyin": "QiLianShan Lu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.376035,
+                    31.27165
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "李子园",
+                "pinyin": "LiZiYuan",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.389969,
+                    31.26902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海西站",
+                "pinyin": "ShangHai XiZhan",
+                "line": [
+                    "11号线",
+                    "11号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.400926,
+                    31.262693
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "真如",
+                "pinyin": "ZhenRu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.407219,
+                    31.250767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "枫桥路",
+                "pinyin": "FengQiao Lu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.411402,
+                    31.24185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "隆德路",
+                "pinyin": "LongDe Lu",
+                "line": [
+                    "11号线",
+                    "11号线",
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.423576,
+                    31.230509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海游泳馆",
+                "pinyin": "ShangHai YouYongGuan",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.441424,
+                    31.179123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙华",
+                "pinyin": "LongHua",
+                "line": [
+                    "11号线",
+                    "11号线",
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.452958,
+                    31.172672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "云锦路",
+                "pinyin": "YunJin Lu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.458519,
+                    31.166488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "龙耀路",
+                "pinyin": "LongYao Lu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.459702,
+                    31.15972
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "三林",
+                "pinyin": "SanLin",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.511594,
+                    31.143172
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "三林东",
+                "pinyin": "San LinDong",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.522999,
+                    31.146459
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦三路",
+                "pinyin": "PuSanLu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.539005,
+                    31.150861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "御桥",
+                "pinyin": "YuQiao",
+                "line": [
+                    "11号线",
+                    "11号线",
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.570914,
+                    31.158131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "罗山路",
+                "pinyin": "LuoShan Lu",
+                "line": [
+                    "11号线",
+                    "11号线",
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.593152,
+                    31.153259
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "秀沿路",
+                "pinyin": "XiuYan Lu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.59839,
+                    31.138128
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "康新公路",
+                "pinyin": "KangXin GongLu",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.617199,
+                    31.130439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "迪士尼",
+                "pinyin": "DiShiNi",
+                "line": [
+                    "11号线",
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.667959,
+                    31.141263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海赛车场",
+                "pinyin": "ShangHai SaiCheChang",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.226098,
+                    31.331898
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "昌吉东路",
+                "pinyin": "ChangJi DongLu",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.200384,
+                    31.29362
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "上海汽车城",
+                "pinyin": "ShangHai QiCheCheng",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.180742,
+                    31.285403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "安亭",
+                "pinyin": "AnTing",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.161985,
+                    31.28849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "兆丰路",
+                "pinyin": "ZhaoFeng Lu",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.150315,
+                    31.289048
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "光明路",
+                "pinyin": "GuangMing Lu",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.117186,
+                    31.29621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "花桥",
+                "pinyin": "HuaQiao",
+                "line": [
+                    "11号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.104407,
+                    31.29879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "七莘路",
+                "pinyin": "QiXin Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.362464,
+                    31.131638
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹莘路",
+                "pinyin": "HongXin Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.380348,
+                    31.137448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "顾戴路",
+                "pinyin": "GuDai Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.391856,
+                    31.14089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东兰路",
+                "pinyin": "DongLan Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.391915,
+                    31.155823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹梅路",
+                "pinyin": "HongMei Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.39725,
+                    31.16035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹漕路",
+                "pinyin": "HongCao Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.410553,
+                    31.164033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "桂林公园",
+                "pinyin": "GuiLin GongYuan",
+                "line": [
+                    "12号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.419654,
+                    31.166986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "国际客运中心",
+                "pinyin": "GuoJi KeYun ZhongXin",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.498158,
+                    31.25016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "提篮桥",
+                "pinyin": "TiLanQiao",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.506801,
+                    31.253518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江浦公园",
+                "pinyin": "JiangPu GongYuan",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.523697,
+                    31.26457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "宁国路",
+                "pinyin": "NingGuo Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.532352,
+                    31.268574
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "隆昌路",
+                "pinyin": "LongChang Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.544692,
+                    31.275213
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "爱国路",
+                "pinyin": "AiGuo Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.552655,
+                    31.279788
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "复兴岛",
+                "pinyin": "FuXingDao",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.561315,
+                    31.280779
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东陆路",
+                "pinyin": "DongLu Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.579124,
+                    31.282533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "杨高北路",
+                "pinyin": "YangGao BeiLu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.60296,
+                    31.280092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金京路",
+                "pinyin": "JinJing Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.615477,
+                    31.279823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "申江路",
+                "pinyin": "ShenJiang Lu",
+                "line": [
+                    "12号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.626863,
+                    31.280231
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金运路",
+                "pinyin": "JinYun Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.319308,
+                    31.240986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "金沙江西路",
+                "pinyin": "JinShaJiang XiLu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.335156,
+                    31.241152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "丰庄",
+                "pinyin": "FengZhuang",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.355141,
+                    31.242553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "祁连山南路",
+                "pinyin": "QiLianShan NanLu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.367275,
+                    31.237625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "真北路",
+                "pinyin": "ZhenBeiLu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.381946,
+                    31.232243
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "大渡河路",
+                "pinyin": "DaDuHe Lu",
+                "line": [
+                    "13号线",
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.394431,
+                    31.231752
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "武宁路",
+                "pinyin": "WuNing Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.430504,
+                    31.234346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "江宁路",
+                "pinyin": "JiangNing Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.44483,
+                    31.244282
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "自然博物馆",
+                "pinyin": "ZiRan BoWuGuan",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.462366,
+                    31.236451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "淮海中路",
+                "pinyin": "HuaiHai ZhongLu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.464514,
+                    31.22028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "世博会博物馆",
+                "pinyin": "ShiBoHui BoWuGuan",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.481592,
+                    31.197572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "世博大道",
+                "pinyin": "ShiBo DaDao",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.484313,
+                    31.182789
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华鹏路",
+                "pinyin": "HuaPeng Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.526567,
+                    31.176276
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "下南路",
+                "pinyin": "XiaNan Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.540189,
+                    31.179295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "北蔡",
+                "pinyin": "BeiCai",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.552017,
+                    31.180131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "陈春路",
+                "pinyin": "ChenChun Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.557708,
+                    31.174756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "莲溪路",
+                "pinyin": "LianXi Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.566414,
+                    31.16911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华夏中路",
+                "pinyin": "hua xia zhong lu",
+                "line": [
+                    "13号线",
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.583109,
+                    31.175759
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "中科路",
+                "pinyin": "ZhongKe Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.602465,
+                    31.178862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "学林路",
+                "pinyin": "XueLin Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.614363,
+                    31.183476
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "张江路",
+                "pinyin": "ZhangJiang Lu",
+                "line": [
+                    "13号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.629182,
+                    31.18913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "锦秋路",
+                "pinyin": "JinQiu Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.381765,
+                    31.320184
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "丰翔路",
+                "pinyin": "FengXiang Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.380872,
+                    31.308218
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "南大路",
+                "pinyin": "NanDaLu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.380097,
+                    31.299117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "祁安路",
+                "pinyin": "QiAn Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.38488,
+                    31.291527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "古浪路",
+                "pinyin": "GuLang Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.392261,
+                    31.284858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "武威东路",
+                "pinyin": "WuWei DongLu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.391307,
+                    31.275685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "铜川路",
+                "pinyin": "TongChuan Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.397078,
+                    31.250743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "梅岭北路",
+                "pinyin": "MeiLing BeiLu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.39697,
+                    31.242948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "长风公园",
+                "pinyin": "ChangFeng GongYuan",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.396178,
+                    31.226257
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "红宝石路",
+                "pinyin": "HongBaoShi Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.398344,
+                    31.198685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "姚虹路",
+                "pinyin": "YaoHong Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.406699,
+                    31.191535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "吴中路",
+                "pinyin": "WuZhongLu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.413457,
+                    31.186765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华东理工大学",
+                "pinyin": "HuaDong LiGong DaXue",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.429092,
+                    31.142709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "罗秀路",
+                "pinyin": "LuoXiu Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.435806,
+                    31.131552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "朱梅路",
+                "pinyin": "ZhuMei Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.437804,
+                    31.124364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "华泾西",
+                "pinyin": "Hua JingXi",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.440138,
+                    31.113429
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "虹梅南路",
+                "pinyin": "HongMei NanLu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.432964,
+                    31.103976
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "景西路",
+                "pinyin": "JingXi Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.41876,
+                    31.099727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "曙建路",
+                "pinyin": "ShuJian Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.417897,
+                    31.090625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "双柏路",
+                "pinyin": "ShuangBai Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.42175,
+                    31.083214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "元江路",
+                "pinyin": "YuanJiang Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.431901,
+                    31.062815
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "永德路",
+                "pinyin": "YongDe Lu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.443203,
+                    31.039147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "紫竹高新区",
+                "pinyin": "ZiZhu GaoXinQu",
+                "line": [
+                    "15号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.451012,
+                    31.023661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "周浦东",
+                "pinyin": "Zhou PuDong",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.606895,
+                    31.110038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "鹤沙航城",
+                "pinyin": "HeSha HangCheng",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.611239,
+                    31.077797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "航头东",
+                "pinyin": "HangTou Dong",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.617494,
+                    31.054919
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "新场",
+                "pinyin": "XinChang",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.64898,
+                    31.045561
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "野生动物园",
+                "pinyin": "YeSheng DongWuYuan",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.699218,
+                    31.050325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "惠南",
+                "pinyin": "HuiNan",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.761677,
+                    31.053828
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "惠南东",
+                "pinyin": "HuiNan Dong",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.7938,
+                    31.026448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "书院",
+                "pinyin": "ShuYuan",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.85052,
+                    30.959264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "临港大道",
+                "pinyin": "LinGang DaDao",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.910851,
+                    30.923519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "滴水湖",
+                "pinyin": "DiShuiHu",
+                "line": [
+                    "16号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.929583,
+                    30.907245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "诸光路",
+                "pinyin": "ZhuGuang Lu",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.29304,
+                    31.191678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "蟠龙路",
+                "pinyin": "PanLong Lu",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.278645,
+                    31.186328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "徐盈路",
+                "pinyin": "XuYing Lu",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.253976,
+                    31.178101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "徐泾北城",
+                "pinyin": "XuJing BeiCheng",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.241668,
+                    31.175518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "嘉松中路",
+                "pinyin": "JiaSong ZhongLu",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.223916,
+                    31.164099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "赵巷",
+                "pinyin": "ZhaoXiang",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.192279,
+                    31.161247
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "汇金路",
+                "pinyin": "HuiJin Lu",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.151665,
+                    31.161221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "青浦新城",
+                "pinyin": "QingPu XinCheng",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.12567,
+                    31.158925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "漕盈路",
+                "pinyin": "CaoYing Lu",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.096889,
+                    31.160467
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "淀山湖大道",
+                "pinyin": "Dian ShanHu DaDao",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.082134,
+                    31.13446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "朱家角",
+                "pinyin": "ZhuJiaJiao",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.048989,
+                    31.100594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东方绿舟",
+                "pinyin": "DongFang LvZhou",
+                "line": [
+                    "17号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.019534,
+                    31.098544
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "康桥",
+                "pinyin": "KangQiao",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.567342,
+                    31.134504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "周浦",
+                "pinyin": "ZhouPu",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.567589,
+                    31.113461
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "繁荣路",
+                "pinyin": "FanRong Lu",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.570547,
+                    31.102554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "沈梅路",
+                "pinyin": "ShenMei Lu",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.580094,
+                    31.091457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "鹤涛路",
+                "pinyin": "HeTao Lu",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.58596,
+                    31.07186
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "下沙",
+                "pinyin": "XiaSha",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.588988,
+                    31.054396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "航头",
+                "pinyin": "HangTou",
+                "line": [
+                    "18号线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.596083,
+                    31.037305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "三鲁公路",
+                "pinyin": "SanLu GongLu",
+                "line": [
+                    "浦江线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.527389,
+                    31.056108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "闵瑞路",
+                "pinyin": "MinRui Lu",
+                "line": [
+                    "浦江线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.530323,
+                    31.047956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "浦航路",
+                "pinyin": "PuHang Lu",
+                "line": [
+                    "浦江线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.530591,
+                    31.040993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "东城一路",
+                "pinyin": "DongCheng YiLu",
+                "line": [
+                    "浦江线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.532093,
+                    31.03039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "汇臻路",
+                "pinyin": "HuiZhen Lu",
+                "line": [
+                    "浦江线"
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.524558,
+                    31.025245
+                ]
+            }
+        }
+    ]
+}

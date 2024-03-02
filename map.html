@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>layers</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.css' rel='stylesheet' />
+  <link href='https://watergis.github.io/mapbox-gl-legend/mapbox-gl-legend.css' rel='stylesheet' />
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.12.0/mapbox-gl.js'></script>
+  <!-- <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.js" type="application/javascript"></script> -->
+  <script src="https://watergis.github.io/mapbox-gl-legend/mapbox-gl-legend.js"></script>
+  <script src="./lib/jquery-3.5.1.min.js"></script>
+
+  <link href='./style.css' rel='stylesheet' />
+</head>
+
+<body>
+  <div id='map'></div>
+  <div class="zoomTool">
+    <div id="zoomIn" class="item"> + </div>
+    <div id="zoomOut" class="item"> - </div>
+  </div>
+  <main>
+    <section class="section">
+      <div class="container">
+        
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+
+      </div>
+    </section>
+  </main>
+
+  <script>
+    $(function () {
+      // 导出json文件
+      function exportFileJSON(data = {}, filename = 'dataJSON.json') {
+        let dataCopy = data;
+        if (typeof dataCopy === 'object') {
+          dataCopy = JSON.stringify(dataCopy, null, 4);
+        }
+        // 导出数据
+        const blob = new Blob([data], { type: 'text/json' });
+        const e = new MouseEvent('click');
+        const a = document.createElement('a');
+
+        a.download = filename;
+        a.href = window.URL.createObjectURL(blob);
+        a.dataset.downloadurl = ['text/json', a.download, a.href].join(':');
+        a.dispatchEvent(e);
+      }
+
+      // 解析json 成geojson
+      fetch('./data/subwaySH.json').then(res => res.json()).then((result) => {
+        console.log(result)
+        let features = [], featuresStation = []
+        result['l'].forEach(element => {
+
+          features.push({
+            type: 'Feature',
+            properties: {
+              "shortName": element['ln'],
+              "name": element['kn'],
+              "lineNumber": element['x'],
+            },
+            geometry: {
+              "type": "MultiLineString",
+              "coordinates": [element['st'].map(item => item['sl'].split(',').map(Number))]
+            }
+          })
+          element['st'].forEach(item => {
+            let findItem = featuresStation.find(it => it.properties.name === item['n'])
+            
+            if (!findItem) {
+              featuresStation.push({
+                type: 'Feature',
+                properties: {
+                  "name": item['n'],
+                  "pinyin": item['sp'],
+                  'line':[element["ln"]]
+                },
+                geometry: {
+                  "type": "Point",
+                  "coordinates": item['sl'].split(',').map(Number)
+                }
+              })
+            } else {
+              let findItemIndex = featuresStation.findIndex(it => it.properties.name === item['n'])
+              featuresStation[findItemIndex].properties.line.push(element['ln'])
+            }
+          })
+        });
+
+        // 导出地铁线路
+        // exportFileJSON(JSON.stringify({
+        //   type:'FeatureCollection',
+        //   features,
+        // }), 'metro_line.json')
+
+        // 导出站点
+        // exportFileJSON(JSON.stringify({
+        //   type: 'FeatureCollection',
+        //   features:featuresStation,
+        // }), 'metro_station.json')
+      })
+    })
+  </script>
+
+  <script src="./map.js"></script>
+</body>
+
+</html>

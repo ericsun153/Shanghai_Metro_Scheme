@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metro-shanghai</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+        }
+
+        .header {
+            background-image: url('./header.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .intro {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* 艺术字体 */
+        .hcqFont{position:relative;letter-spacing:.07em;font-size:2em;font-weight:normal;margin:0 auto}
+        .hcqFont:before,.hcqFont:after{position:absolute;top:0;left:0;right:0}
+        .y1 {
+            /* width: 300px; */
+            /* height: 200px; */
+            /* position: absolute; */
+            /* left: 50%; */
+            /* margin-left: -150px; */
+            background-image: -webkit-linear-gradient(left, blue, #66ffff 10%, #cc00ff 20%, #CC00CC 30%, #CCCCFF 40%, #00FFFF 50%, #CCCCFF 60%, #CC00CC 70%, #CC00FF 80%, #66FFFF 90%, blue 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-background-size: 200% 100%;
+            -webkit-animation: masked-animation 4s linear infinite;
+            font-size: 18px;
+        }
+        .y2{display:inline-block;font-weight:bold;color:#def;text-shadow:0 0 1px currentColor,-1px -1px 1px #000,0 -1px 1px #000,1px -1px 1px #000,1px 0 1px #000,1px 1px 1px #000,0 1px 1px #000,-1px 1px 1px #000,-1px 0 1px #000;-webkit-filter:url(#diff1);filter:url(#diff1);/*background:#def;padding:0 .2em*/}
+
+        .y4{color: transparent;-webkit-text-stroke: 1px red;letter-spacing: 0.04em;}
+
+        @keyframes masked-animation {
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: -100% 0;
+            }
+        }
+    </style>
+    <link href='./lib/jquery.pagepiling.css' rel='stylesheet' />
+</head>
+
+<body>
+
+    <div id="pagepiling">
+        <div class="section header" id="section1">
+            <div class="intro">
+                <p class="hcqFont y2">Tracks Through Time: Scrollytelling the Evolution of Shanghai Metro</p>
+                <p class="y1">Eric Sun & Sunan Xu</p>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <iframe id="myIframe" src="./map.html"></iframe>
+        </div>
+    </div>
+
+    <!-- <header class="header">
+
+    </header> -->
+</body>
+<script src="./lib/jquery-3.5.1.min.js"></script>
+<script src="./lib/jquery.pagepiling.min.js"></script>
+<script>
+
+    $(function () {
+        $('#pagepiling').pagepiling({
+            // sectionsColor: ['#bfda00', '#2ebe21' ], // '#2C3E50', '#51bec4' 
+            navigation: {
+                'position': 'right',
+                'tooltips': ['Home Page', 'Map Page'],
+                // normalScrollElements: '#section4, .txt'
+            },
+            afterLoad: (anchorLink, index) => {
+                console.log(anchorLink, index)
+                if (index === 2) {
+                    var iframe = document.getElementById('myIframe');
+                    var iframeWindow = iframe.contentWindow;
+                    iframeWindow.addFirstLine()
+                }
+            },
+        });
+
+    })
+    function goPageOne() {
+        $('li[data-tooltip="Home Page"] a').trigger('click')
+        var iframe = document.getElementById('myIframe');
+        var iframeWindow = iframe.contentWindow;
+        iframeWindow.clearMetroLine()
+    }
+</script>
+
+</html>
