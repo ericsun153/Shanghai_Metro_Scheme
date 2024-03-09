@@ -2,6 +2,7 @@
     "type": "FeatureCollection",
     "features": [
         {
+            "id":1,
             "type": "Feature",
             "properties": {
                 "shortName": "1号线",
@@ -130,6 +131,7 @@
             }
         },
         {
+            "id":2,
             "type": "Feature",
             "properties": {
                 "shortName": "2号线",
@@ -266,6 +268,7 @@
             }
         },
         {
+            "id":3,
             "type": "Feature",
             "properties": {
                 "shortName": "3号线",
@@ -398,6 +401,7 @@
             }
         },
         {
+            "id":4,
             "type": "Feature",
             "properties": {
                 "shortName": "4号线",
@@ -518,6 +522,7 @@
             }
         },
         {
+            "id":5,
             "type": "Feature",
             "properties": {
                 "shortName": "5号线",
@@ -594,6 +599,7 @@
             }
         },
         {
+            "id":6,
             "type": "Feature",
             "properties": {
                 "shortName": "6号线",
@@ -722,6 +728,7 @@
             }
         },
         {
+            "id":7,
             "type": "Feature",
             "properties": {
                 "shortName": "7号线",
@@ -870,6 +877,7 @@
             }
         },
         {
+            "id":8,
             "type": "Feature",
             "properties": {
                 "shortName": "8号线",
@@ -1006,6 +1014,7 @@
             }
         },
         {
+            "id":9,
             "type": "Feature",
             "properties": {
                 "shortName": "9号线",
@@ -1162,6 +1171,7 @@
             }
         },
         {
+            "id":10,
             "type": "Feature",
             "properties": {
                 "shortName": "10号线",
@@ -1309,8 +1319,8 @@
                 ]
             }
         },
-       
         {
+            "id":11,
             "type": "Feature",
             "properties": {
                 "shortName": "11号线",
@@ -1471,6 +1481,7 @@
             }
         },
         {
+            "id":12,
             "type": "Feature",
             "properties": {
                 "shortName": "12号线",
@@ -1615,6 +1626,7 @@
             }
         },
         {
+            "id":13,
             "type": "Feature",
             "properties": {
                 "shortName": "13号线",
@@ -1755,6 +1767,7 @@
             }
         },
         {
+            "id":14,
             "type": "Feature",
             "properties": {
                 "shortName": "15号线",
@@ -1891,6 +1904,7 @@
             }
         },
         {
+            "id":15,
             "type": "Feature",
             "properties": {
                 "shortName": "16号线",
@@ -1959,6 +1973,7 @@
             }
         },
         {
+            "id":16,
             "type": "Feature",
             "properties": {
                 "shortName": "17号线",
@@ -2027,6 +2042,7 @@
             }
         },
         {
+            "id":17,
             "type": "Feature",
             "properties": {
                 "shortName": "18号线",
@@ -2075,6 +2091,7 @@
             }
         },
         {
+            "id":18,
             "type": "Feature",
             "properties": {
                 "shortName": "磁悬浮",
@@ -2099,6 +2116,7 @@
             }
         },
         {
+            "id":19,
             "type": "Feature",
             "properties": {
                 "shortName": "浦江线",

@@ -12,6 +12,7 @@
   <!-- <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/jquery/3.6.0/jquery.js" type="application/javascript"></script> -->
   <script src="https://watergis.github.io/mapbox-gl-legend/mapbox-gl-legend.js"></script>
   <script src="./lib/jquery-3.5.1.min.js"></script>
+  <script src="./lib/d3.v5.min.js"></script>
 
   <link href='./style.css' rel='stylesheet' />
 </head>
@@ -23,99 +24,393 @@
     <div id="zoomOut" class="item"> - </div>
   </div>
   <main>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line1.png" />
+        <p>
+          As the first metro line in Shanghai, Line 1 of the Shanghai Metro is a critical north-south route that starts
+          from Fujin Road and extends to Xinzhuang, passing through key locations including Shanghai Railway Station,
+          People's Square, and Xujiahui. As the inaugural line of the metro system, it experiences heavy usage with
+          daily ridership surpassing 1 million passengers due to its connectivity to significant areas. The line's
+          layout varies by region; it operates at grade adjacent to the Shanghai–Hangzhou railway in the south,
+          underground in central areas, and is elevated along the North–South Elevated Road in the north. It is
+          represented by the color red on transit maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line2.png" />
+        <p>
+          Line 2 of the Shanghai Metro, stretching nearly 64 km, is the network's second longest line. It traverses an
+          east-west route from East Xujing to Pudong International Airport, connecting significant points such as
+          Hongqiao Airport, the Huangpu River, and the Lujiazui Financial District. With a daily patronage of over 1.9
+          million, it ranks as the most frequented line in the system. Previously, the segment from Guanglan Road to
+          Pudong International Airport operated semi-independently until through service commenced on April 19, 2019.
+          The line is depicted in light green on transit maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line3.png" />
+        <p>
+          Line 3 of the Shanghai Metro is a north-south route distinguished by its bright yellow color belt on older
+          rolling stock and a yellow and purple livery on newer trains. Unique within the metro system, Line 3 is
+          primarily an elevated line, fully above ground except for the segment near Tieli Road at the Baosteel Group
+          Corporation entrance. It stretches from North Jiangyang Road to Shanghai South Railway Station, intersecting
+          with Line 1. Unlike Line 1's direct city center path, Line 3 encircles the city center, aligning with the
+          Inner Ring Road from Caoxi Road to Zhongtan Road before turning east towards the Shanghai–Nanjing railway
+          route. The line is represented in yellow on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line4.png" />
+        <p>
+          Line 4 of the Shanghai Metro, distinguished by its loop configuration, uses a color coding system with older
+          trains sporting a bright purple belt and newer ones featuring a yellow and purple livery to differentiate from
+          Line 3, with which it shares a route. The direction of travel is indicated as "Outer Loop" for
+          counter-clockwise movement and "Inner Loop" for the opposite, with Yishan Road serving as a terminal for
+          disembarking passengers before trains return to the depot. The line, which opened in stages with the first
+          "C"-shaped segment between Damuqiao Road and Lancun Road launching on December 31, 2005, and the remaining
+          section on December 29, 2007, is marked in purple on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+   <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line5.png" />
+        <p>
+          Line 5 of the Shanghai Metro, a north-south route connecting Xinzhuang station in Minhang District to Fengxian
+          Xincheng in Fengxian District, was initially envisioned as an extension of Line 1 going southward to Minhang
+          and later opened as the fourth operational metro line on November 25, 2003. It is designated with a violet
+          color on system maps, highlighting its path through the network.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line6.png" />
+        <p>
+          Line 6 of the Shanghai Metro, known as the "Hello Kitty Line" for its distinctive lurid pink livery, is an
+          eastern north-south route entirely within Pudong New Area, opening on December 29, 2007, and colored magenta
+          on system maps. A full journey between its terminals, Gangcheng Road and Oriental Sports Center, takes around
+          1 hour and 10 minutes.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line7.png" />
+        <p>
+          Line 7 of the Shanghai Metro, serving as a northwest-southeast connector, links Baoshan District with
+          Shanghai's downtown, Pudong New Area, and the Expo 2010 site, stretching from Meilan Lake to Huamu Road near
+          the Shanghai New International Expo Center. Designated with an orange color on system maps, Qihua Road acts as
+          the terminus for trains heading back to the Chentai Road depot.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line8.png" />
+        <p>
+          Line 8 of the Shanghai Metro operates as a north-south route, extending from Shiguang Road in Yangpu District
+          to Shendu Highway in Minhang. It is represented by the color cyan on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line9.png" />
+        <p>
+          Line 9 of the Shanghai Metro spans from Songjiang South Railway Station in Songjiang District to Caolu in
+          Pudong, following a southwest-northeast direction. It is depicted in light blue on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line10.png" />
+        <p>
+          Line 10 of the Shanghai Metro, dubbed the "Golden Line" for connecting major tourist destinations such as
+          Yuyuan and Xintiandi, opened on April 10, 2010, and stretches from Jilong Road to Hongqiao Railway Station,
+          with a branch from Longxi Road to Hangzhong Road. Unique for its numbered station codes and as mainland
+          China's first high-density, high-volume, fully automatic subway line (operating under GoA4 unattended train
+          operation), it links Hongqiao International Airport with downtown Shanghai and the residential areas of Yangpu
+          and Hongkou, marked by a lilac color on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line11.png" />
+        <p>
+          Since October 2013, Line 11 of the Shanghai Metro, a northwest-southeast route, has extended its service to
+          Kunshan city, becoming the first intercity metro in China to cross a provincial boundary and the second
+          intercity metro after the Guangfo Metro. With a length of 82.386 kilometers, it stands as the second-longest
+          single-line subway in China, following Chongqing's Line 6, and is marked brown on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line12.png" />
+        <p>
+          Line 12 of the Shanghai Metro, an east-west line, stretches from Jinhai Road in Pudong to Qixin Road in
+          Minhang District, with its first section opening in December 2013 and full operation achieved by December
+          2015, making it the line with the most interchanges in the Shanghai Metro network. It is represented by a
+          forest green color on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line13.png" />
+        <p>
+          Line 13 of the Shanghai Metro, running from Jinyun Road in Jiading to Zhangjiang Road in Pudong, once served
+          as a dedicated Expo line for the 2010 Shanghai World Expo. It is depicted in pink on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line15.png" />
+        <p>
+          Line 15 of the Shanghai Metro, a north-south route that opened on January 23, 2021, stretches 42.3 kilometers
+          from Gucun Park in Baoshan District to Zizhu Hi-tech Park in Minhang District, incorporating stops at major
+          railway stations and featuring 30 stations. As part of Shanghai's newer, high-capacity, fully automated, and
+          driverless metro lines, including Lines 14 and 18, Line 15 is depicted in ivory on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line16.png" />
+        <p>
+          Line 16 of the Shanghai Metro, initially known as the Lingang line and previously designated as Line 21,
+          serves the south-eastern suburban areas of Shanghai, extending 59 km from Longyang Road through locations like
+          the Shanghai Wild Animal Park and Huinan Town, to Dishui Lake in Nanhui New City with a mix of underground and
+          elevated stations. Construction started in early 2009, leading to its opening on December 29, 2013, followed
+          by the completion of its second phase at the end of 2014.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line17.png" />
+        <p>
+          Line 17 of the Shanghai Metro, formerly known as the Qingpu line, is an east-west line connecting Hongqiao
+          Railway Station in Minhang District to Oriental Land in Qingpu District, covering a distance of 35.3
+          kilometers with 13 fully accessible stations, and began passenger trial operations on December 30, 2017.
+          Marking the first metro extension into the suburban Qingpu District, the line is distinguished by its thematic
+          design inspired by local water towns and headstreams, featuring artistic elements at its stations, and is
+          colored light brown on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/line18.png" />
+        <p>
+          Line 18 of the Shanghai Metro, a north-south route extending 36.5 km from South Changjiang Road in Baoshan
+          District to Hangtou in Pudong, features 26 stations and was partially opened on December 26, 2020, with its
+          full operation commencing on December 30, 2021. Initially slated for a 2020 launch, the line encountered
+          delays, leading to a phased opening starting with an initial segment of eight stations in Pudong. As part of
+          Shanghai Metro's latest generation of high-capacity, fully automated, and driverless lines, alongside Lines 14
+          and 15, Line 18 is highlighted in earth yellow on system maps.
+        </p>
       </div>
     </section>
-    <section class="section">
+    <section class="section section-map">
       <div class="container">
-
+        <img src="./data/img/maglev.png" />
+        <p>
+          The Shanghai maglev train, utilizing German Transrapid technology, is the world's first commercial high-speed
+          maglev, connecting Shanghai Pudong International Airport to Longyang Road Station with a top speed of 300
+          km/h, reduced from its previous cruising speed of 431 km/h. This 30 km journey, not part of the Shanghai Metro
+          network, takes just over 8 minutes, offering rapid transit for passengers to interchange with multiple metro
+          lines for city access.
+        </p>
+      </div>
+    </section> 
+    <!-- <section class="section section-map">
+      <div class="container">
+        <img src="./data/img/line2.png" />
+        <p></p>
+      </div>
+    </section> -->
+    <section class="section">
+      <div class="d3-container">
+        <!-- <div id="d3-container-inner"></div> -->
+        <svg width="600" height="400"></svg>
+        <div id="tooltip" class="tooltip"></div> <!-- 工具提示 -->
+        <p>
+          Analyzing the Shanghai Metro passenger flow from interactive line plots spanning from 2005 to 2023 would
+          highlight significant growth patterns attributable to urban development and network expansions. Daily data
+          insights from 2015 to 2019 could pinpoint usage patterns, such as weekday peaks and weekend lulls, while
+          annual averages over nearly two decades would illustrate the system's capacity to accommodate Shanghai's
+          burgeoning population. Such interactive visualizations, with features allowing users to hover for details and
+          zoom to refine their view, are invaluable for urban planners and transit authorities to ensure the metro's
+          efficiency and scalability in one of the world's most dynamic urban landscapes.
+        </p>
       </div>
     </section>
+    <!-- <section class="section">
+      <div class="d3-container">
+        <div id="echarts_"></div>
+        <p>
+          Analyzing the Shanghai Metro passenger flow from interactive line plots spanning from 2005 to 2023 would highlight significant growth patterns attributable to urban development and network expansions. Daily data insights from 2015 to 2019 could pinpoint usage patterns, such as weekday peaks and weekend lulls, while annual averages over nearly two decades would illustrate the system's capacity to accommodate Shanghai's burgeoning population. Such interactive visualizations, with features allowing users to hover for details and zoom to refine their view, are invaluable for urban planners and transit authorities to ensure the metro's efficiency and scalability in one of the world's most dynamic urban landscapes.
+        </p>
+      </div>
+    </section> -->
     <section class="section">
-      <div class="container">
+      <div class="bar-container">
+        <div id="chart1">
+          <div class="item">
+            <div class="sub1">
+              <label>111</label>
+              <div class="bar"></div>
+            </div>
+            <div class="sub2">Line 1</div>
+            <div class="sub3">
+              <div class="bar"></div>
+              <label>111</label>
+            </div>
+          </div>
+        </div>
+        <p style="margin-left: 16px;">
+          The Shanghai Metro Line 2, serving as a vital artery connecting the eastern and western parts of Shanghai, has
+          significantly influenced the city's urban planning, economic development, and the daily lives of its
+          residents. It links major areas such as the Lujiazui Financial District, People's Square, and Jing'an Temple,
+          facilitating economic prosperity by boosting commercial activities and enhancing the real estate market along
+          its route. Furthermore, it connects Shanghai's two major airports, Pudong International and Hongqiao
+          International, enhancing the city's status as a global transportation hub. For residents, Line 2 offers
+          substantial improvements in convenience, reducing commute times and promoting a shift towards public
+          transportation, thereby contributing to a more sustainable urban lifestyle. Additionally, it encourages
+          cultural exchange by providing easy access to various cultural institutions, thereby enriching the city's
+          social fabric. Overall, Shanghai Metro Line 2 exemplifies how a well-integrated public transit system can
+          transform urban living, stimulate economic growth, and foster a vibrant, connected community.
+        </p>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="bar-container-2">
+        <div id="chart2">
+          <div class="item">
+            <div class="sub1">
+              <div class="bar"></div>
+              <div class="sub21">
+                <div class="sub2">Line 1</div>
+                <div class="sub2">Line 2</div>
+                <div class="sub2">Line 3</div>
+              </div>
+              <label>世纪大道</label>
+            </div>
+            <div class="sub3">
+              <label>世纪大道</label>
+              <div class="sub21">
+                <div class="sub2">Line 1</div>
+                <div class="sub2">Line 2</div>
+                <div class="sub2">Line 3</div>
+              </div>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top: 16px;">
+          The development of the metro system is inextricably linked to the city itself. Initially, the planning of the
+          metro greatly referred to the distribution of the city's population. For instance, the earliest Line 1 and
+          Line 2 traversed Shanghai's most crucial areas, facilitating transfers at People's Square, a location of the
+          highest population density and mobility. As evident from the data, People's Square remains one of the metro
+          stations with the highest passenger traffic, regardless of it being a weekend or a weekday. Concurrently,
+          while metro planning relies on the distribution of the population, it also influences population distribution.
+          For example, the area around Longyang Road station was an undeveloped wasteland at the turn of the century.
+          However, due to the convergence of multiple lines at this location, it has transformed into a bona fide urban
+          transportation hub and economic center. Another illustration is the Sichuan North Road shopping district, one
+          of Shanghai's most famous shopping areas in the early century, which has now degenerated into an ordinary
+          shopping district due to its prolonged exclusion from the metro coverage area. Therefore, metro planning not
+          only takes into account the existing population distribution but also significantly alters it, facilitating a
+          better flow of population towards areas of lower density.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="bar-container-3" id="worldSvg">
+        <svg width="1050" height="500"></svg>
+        <div id="year" style="    color: #fff;
+        font-size: 30px;
+        position: absolute;
+        top: 420px;
+        right: 186px;
+        font-family: math;">1861</div>
+        <p>
+          Shanghai boasts a mature and stable metro system, yet this achievement is founded upon the relentless pursuit
+          of urban mass transportation solutions. In fact, nearly two hundred cities worldwide have established their
+          own subway networks. The exploration of urban development and its future trajectories continues unabated. In
+          the bar chart race visualization of metro system lengths by country, we'd see a fascinating story of urban
+          development and transportation infrastructure unfold over time. The visualization would start with the dataset
+          as shown in the second image, using attributes like country name, system count, metro length, lines, stations,
+          and annual ridership.
+
+          Countries like China and the United States, with their massive urban centers and high population densities,
+          would likely show significant growth in their metro system lengths, reflecting their efforts to cater to urban
+          mobility and reduce traffic congestion. China, with the highest number of systems and the longest total metro
+          length, would probably dominate the race, showcasing the rapid expansion of its urban transit in response to
+          its urbanization and economic growth.
+
+          European countries, with older but highly efficient metro systems, might not extend as quickly in terms of new
+          kilometers of track but would maintain a strong presence due to the density of their networks and the
+          historical importance of their transit systems. Meanwhile, newer systems in countries like India and Brazil
+          would be seen gaining ground as they develop their metro infrastructure to improve urban connectivity and
+          address the challenges of growing urban populations.
+
+          The fluctuating bars would not only tell us about the expansion of physical infrastructure but could also hint
+          at policy shifts, economic development, and the increasing importance of sustainable urban transport solutions
+          globally. The race would provide a visual representation of each country's commitment to enhancing public
+          transport, the evolution of metro systems as lifelines of cities, and the global trend towards expanding urban
+          rail networks.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="bar-container-4">
+        <p>
+          In the symphony of urban development, the Shanghai Metro has been an ever-evolving masterpiece, striking a
+          harmonious balance between innovation and tradition, expansion and efficiency, serving not just as a means of
+          transportation but as the pulsating veins of the city, fostering connectivity and growth. This scrollytelling
+          journey through the Shanghai Metro's intricate network has not only charted the physical expansion of lines,
+          stations, and systems but has also traced the cultural, economic, and social transformation of the urban
+          landscape it navigates.
+        </p>
+        <p>
+          From the industrious thrum of Line 1 to the rapid transits of the maglev, each segment of our exploration has
+          unveiled a narrative of progress, revealing how the metro's steel tracks have been laid in tandem with
+          Shanghai's march towards the future. As we delved into the data-driven heart of the metro's planning, we
+          witnessed the interplay of population dynamics, the strategic foresight of urban design, and the relentless
+          drive towards technological excellence.
+        </p>
+        <p>
+          Our analysis has extended beyond mere statistics, breathing life into the figures that mark the metro's
+          growth. We have seen how the magenta hues of Line 6 and the ivory shades of Line 15 are more than just design
+          choices—they are vibrant threads woven into the fabric of daily life, guiding millions on their journeys
+          across a city that never sleeps. In the grand bar chart race, we have seen the steady climb of metro lengths
+          across the globe, each country's progress a testament to the universal quest for improved urban mobility and
+          sustainability.
+        </p>
+        <p>
+          As we reach the terminus of this scrollytelling odyssey, we are left with a profound appreciation for the
+          Shanghai Metro, not just as a transit system but as a dynamic entity that has shaped and been shaped by the
+          city it serves. Our project transcends a mere chronicle of development; it is a homage to human ingenuity and
+          a preview of the urban odysseys yet to unfold. As Shanghai continues to grow, so too will its metro, a
+          circulatory system that promises to transport its passengers not just through space, but towards a future
+          replete with potential and possibilities. This is the story of the Shanghai Metro—a tale of a city on the
+          move, a narrative of progress in motion, and a journey that continues to inspire and propel us into tomorrow.
+        </p>
       </div>
     </section>
   </main>
@@ -159,14 +454,14 @@
           })
           element['st'].forEach(item => {
             let findItem = featuresStation.find(it => it.properties.name === item['n'])
-            
+
             if (!findItem) {
               featuresStation.push({
                 type: 'Feature',
                 properties: {
                   "name": item['n'],
                   "pinyin": item['sp'],
-                  'line':[element["ln"]]
+                  'line': [element["ln"]]
                 },
                 geometry: {
                   "type": "Point",
@@ -196,6 +491,8 @@
   </script>
 
   <script src="./map.js"></script>
+  <script src="./d3charts.js"></script>
+  <!-- <script src="./world_metro.js"></script> -->
 </body>
 
 </html>
