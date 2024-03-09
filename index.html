@@ -64,6 +64,34 @@
                 background-position: -100% 0;
             }
         }
+
+        #section3{
+            background-color: #000;
+
+        }
+        #section3 .intro2{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 500px;
+            box-shadow: 0 0 4px 4px rgb(115 115 115 / 50%);
+            padding: 20px;
+        }
+        #section3 .intro2 img{
+            width: 600px;
+        }
+        #section3 .intro2 p{
+            text-indent: 2em;
+            color: #fff;
+        }
     </style>
     <link href='./lib/jquery.pagepiling.css' rel='stylesheet' />
 </head>
@@ -73,19 +101,22 @@
     <div id="pagepiling">
         <div class="section header" id="section1">
             <div class="intro">
-                <p class="hcqFont y2">Tracks Through Time: The Evolution of Shanghai Metro</p>
-                <p class="y1">Eric Sun & Sunan Xu</p>
+                <p class="hcqFont y2">SHANG HAI</p>
+                <p class="y1">SHANG HAI</p>
+            </div>
+        </div>
+        <div class="section middle" id="section3">
+            <div class="intro2">
+                <img src="./data/img/intro.png" />
+                <p >
+                    Embarking on a narrative journey through the veins of Shanghai's bustling cityscape, we present an exploration of the evolution of the Shanghai Metro. This scrollytelling experience is designed to transport you through the dynamic history of one of the world's most extensive metro systems, offering a window into the urban tapestry that it has both shaped and been shaped by. Join us as we navigate the depths of planning principles, the ebb and flow of passenger tides, and the visionary expansions that chart the course of Shanghai's march towards the future.
+                </p>
             </div>
         </div>
         <div class="section" id="section2">
             <iframe id="myIframe" src="./map.html"></iframe>
         </div>
-        <!-- <div class="section header" id="section1">
-            <div class="intro">
-                <p class="hcqFont y2">SHANG HAI</p>
-                <p class="y1">SHANG HAI</p>
-            </div>
-        </div> -->
+       
     </div>
 </body>
 <script src="./lib/jquery-3.5.1.min.js"></script>
@@ -97,12 +128,12 @@
             // sectionsColor: ['#bfda00', '#2ebe21' ], // '#2C3E50', '#51bec4' 
             navigation: {
                 'position': 'right',
-                'tooltips': ['Home Page', 'Map Page'], // 'Next Page'
+                'tooltips': ['Home Page', 'Middle Page' ,'Map Page'], // 'Next Page'
                 // normalScrollElements: '#section4, .txt'
             },
             afterLoad: (anchorLink, index) => {
                 console.log(anchorLink, index)
-                if (index === 2 && globalIndex < index) {
+                if (index === 3 && globalIndex < index) {
                     var iframe = document.getElementById('myIframe');
                     var iframeWindow = iframe.contentWindow;
                     iframeWindow.addFirstLine()
@@ -113,7 +144,7 @@
 
     })
     function goPagePre() {
-        $('li[data-tooltip="Home Page"] a').trigger('click')
+        $('li[data-tooltip="Middle Page"] a').trigger('click')
         var iframe = document.getElementById('myIframe');
         var iframeWindow = iframe.contentWindow;
         iframeWindow.clearMetroLine()

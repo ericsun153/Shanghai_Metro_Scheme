@@ -75,7 +75,7 @@ map.on('load', async function () {
   let metro_line = await fetchSync('./data/metro_line.json')
   console.log(metro_line)
   let metro_station = await fetchSync('./data/metro_station.json')
-  
+
   routes = deepCopy(metro_line);
   console.log(routes)
   stations = deepCopy(metro_station);
@@ -94,7 +94,7 @@ map.on('load', async function () {
 
   map.addSource('source_metro_line2', {
     'type': 'geojson',
-    data:routes,
+    data: routes,
     // 'data': './data/metro_line.json'
     // data: { type: 'FeatureCollection', features: [] }
   })
@@ -277,10 +277,25 @@ map.on('load', async function () {
       map.setLayoutProperty('layer_metro_line2', 'visibility', 'none');
     } else {
       map.setLayoutProperty('layer_metro_line2', 'visibility', 'visible');
-      map.setFeatureState(
-        { source: 'source_metro_line2', id: 2 },
-        { hover: true },
-      );
+      // map.setFeatureState(
+      //   { source: 'source_metro_line2', id: 2 },
+      //   { hover: true },
+      // );
+      routes.features.forEach(fea => {
+        const { shortName } = fea.properties;
+
+        if (['2号线'].includes(shortName)) {
+          map.setFeatureState(
+            { source: 'source_metro_line2', id: fea.id },
+            { hover: true },
+          );
+        } else {
+          map.setFeatureState(
+            { source: 'source_metro_line2', id: fea.id },
+            { hover: false },
+          );
+        }
+      })
     }
     // 阻止默认滚动行为  
     return false;
@@ -471,18 +486,135 @@ let riJunKeliu = [
   },
 ]
 
+riJunKeliu = [
+  {
+    name: 'Line 1',
+    kl1: 175,
+    kl2: 96,
+    color: '#e3032a'
+  },
+  {
+    name: 'Line 2',
+    kl1: 187,
+    kl2: 108,
+    color: '#93d508'
+  },
+  {
+    name: 'Line 3',
+    kl1: 62,
+    kl2: 40,
+    color: '#fbd602'
+  },
+  {
+    name: 'Line 4',
+    kl1: 98,
+    kl2: 43,
+    color: '#461d85'
+  },
+  {
+    name: 'Line 5',
+    kl1: 32,
+    kl2: 20,
+    color: '#944b9a'
+  },
+  {
+    name: 'Line 6',
+    kl1: 82,
+    kl2: 56,
+    color: '#e20265'
+  },
+  {
+    name: 'Line 7',
+    kl1: 97,
+    kl2: 52,
+    color: '#ec6e00'
+  },
+  {
+    name: 'Line 8',
+    kl1: 102,
+    kl2: 62,
+    color: '#0095d9'
+  },
+  {
+    name: 'Line 9',
+    kl1: 123,
+    kl2: 76,
+    color: '#86c9ec'
+  },
+  {
+    name: 'Line 10',
+    kl1: 96,
+    kl2: 58,
+    color: '#c6b0d4'
+  },
+  {
+    name: 'Line 11',
+    kl1: 78,
+    kl2: 48,
+    color: '#86192a'
+  },
+  {
+    name: 'Line 12',
+    kl1: 62,
+    kl2: 39,
+    color: "#00785f"
+  },
+  {
+    name: 'Line 13',
+    kl1: 73,
+    kl2: 40,
+    color: '#e799c0'
+  },
+  {
+    name: 'Line 14',
+    kl1: 56,
+    kl2: 37,
+    color: '#cab48f'
+  },
+  {
+    name: 'Line 15',
+    kl1: 54,
+    kl2: 38,
+    color: '#cab48f'
+  },
+  {
+    name: 'Line 16',
+    kl1: 49,
+    kl2: 32,
+    color: '#98d1c0'
+  },
+  {
+    name: 'Line 17',
+    kl1: 48,
+    kl2: 30,
+    color: '#bc7971'
+  },
+  {
+    name: 'Line 18',
+    kl1: 66,
+    kl2: 45,
+    color: '#c4984f'
+  },
+  {
+    name: '浦江线',
+    kl1: 11,
+    kl2: 7,
+    color: '#008B9A'
+  },
+]
+
 let htmlRj = ``
 riJunKeliu.forEach(element => {
   const { name, kl1, kl2, color } = element
   htmlRj += `<div class="item ${name === 'Line 2' ? 'active' : ''}">
   <div class="sub1">
-    <label>${kl1}</label>
+    <label class="${name === 'Line 2' ? 'show' : ''}">${kl1}</label>
     <div class="bar" style="width: ${kl1 / 200 * 100}%;"></div>
   </div>
   <div class="sub2" style="background:${color}">${name}</div>
   <div class="sub3">
     <div class="bar" style="width: ${kl2 / 200 * 100}%;"></div>
-    <label>${kl2}</label>
+    <label class="${name === 'Line 2' ? 'show' : ''}">${kl2}</label>
   </div>
 </div>`
 })
@@ -520,11 +652,11 @@ $('#chart1').html(htmlRj)
 
 // })
 
-// $('#chart1').on('mouseover', '.item', function(){
-//   $(this).siblings().find('label').removeClass('show')
-//   $(this).siblings('.active').find('label').addClass('show')
-//   $(this).find('label').addClass('show')
-// })
+$('#chart1').on('mouseover', '.item', function () {
+  $(this).siblings().find('label').removeClass('show')
+  $(this).siblings('.active').find('label').addClass('show')
+  $(this).find('label').addClass('show')
+})
 
 let stationsData = [
   {
@@ -570,6 +702,8 @@ let stationsData = [
 ]
 
 let htmlStas = ``
+htmlStas += `<div class="w_title">Top Ten Subway Stations with the Highest Average Workday Traffic</div><div class='h_title'>Top Ten Subway Stations with the Highest Average Weekend Traffic</div>`
+
 stationsData.forEach((element, idx) => {
   const { name: w_name, lines: w_lines, kl: w_kl } = element['weekday']
   const { name: h_name, lines: h_lines, kl: h_kl } = element['holiday']
@@ -577,7 +711,7 @@ stationsData.forEach((element, idx) => {
   <div class="sub1" fid="${idx}" tp="weekday">
     <div class="bar1">
       <span>${w_kl}</span>
-      <div class="bar" style="width:${w_kl}px;"></div>
+      <div class="bar" style="width:${w_kl * 2}px;"></div>
     </div>
     <div class="sub21">
       ${w_lines.map(line => {
@@ -597,21 +731,19 @@ stationsData.forEach((element, idx) => {
   }).join('')}
     </div>
     <div class="bar1">
-      <div class="bar" style="width:${h_kl}px;"></div>
+      <div class="bar" style="width:${h_kl * 2}px;"></div>
       <span>${h_kl}</span>
     </div>
   </div>
 </div>`
 })
-htmlStas += `<div class="w_title">工作日日均客流最高10个地铁站</div><div class='h_title'>周末日均客流最高10个地铁站</div>`
 $('#chart2').html(htmlStas)
 
 // let hoveredPolygonId = null;
-$('#chart2').on('click', '.item >div', function () {
+$('#chart2').on('mousemove', '.item >div', function () {
   $(this).parents('.item').siblings().find('div').removeClass('active')
+  $(this).parents('.item').find('div').removeClass('active')
   $(this).addClass('active')
-  // $(this).siblings().find('label').removeClass('show')
-  // $(this).find('label').addClass('show')
   const fid = $(this).attr('fid')
   const tp = $(this).attr('tp')
   // const lines = Array.from(new Set((stationsData[+fid]['weekday'].lines).concat(stationsData[+fid]['holiday'].lines)))
@@ -621,14 +753,6 @@ $('#chart2').on('click', '.item >div', function () {
 
   routes.features.forEach(fea => {
     const { shortName } = fea.properties;
-    console.log(fea.id, typeof fea.id)
-    // let shortName_ = ''
-    // if (shortName === '浦江线') {
-    //   shortName_ = '蒲江线'
-    // } else {
-    //   shortName_ = 'Line ' + shortName.split('号线')[0]
-    // }
-
     if (lines.includes(shortName)) {
       map.setFeatureState(
         { source: 'source_metro_line2', id: fea.id },
@@ -641,12 +765,77 @@ $('#chart2').on('click', '.item >div', function () {
       );
     }
   })
-  console.log(lines);
-
 })
 
 $('#chart2').on('mouseover', '.item', function () {
   $(this).siblings().find('label').removeClass('show')
   // $(this).siblings('.active').find('label').addClass('show')
   // $(this).find('label').addClass('show')
+})
+
+// echarts
+
+
+var chartDom = document.getElementById('echarts-main');
+var myChart = echarts.init(chartDom);
+var option;
+
+fetchSync('./data/flows_sh.json').then(data => {
+  let data2 = data.data.reverse().map(it=>{
+    let now = new Date(it.date);
+    return [+now, it.num]
+  })
+  console.log('🐷', data2);
+  option = {
+    tooltip: {
+      trigger: 'axis',
+      position: function (pt) {
+        return [pt[0], '10%'];
+      }
+    },
+    title: {
+      left: 'center',
+      text: 'Large Ara Chart'
+    },
+    xAxis: {
+      type: 'time',
+      boundaryGap: false,
+      axisLabel: {
+        color: '#fff'
+      }
+    },
+    yAxis: {
+      type: 'value',
+      boundaryGap: [0, '20%'],
+      axisLabel: {
+        color: '#fff'
+      }
+    },
+    dataZoom: [
+      {
+        type: 'inside',
+        start: 0,
+        end: 20,
+        textStyle: {
+          color: '#ddd'
+        }
+      },
+      {
+        start: 0,
+        end: 20
+      }
+    ],
+    series: [
+      {
+        name: '日客流量',
+        type: 'line',
+        smooth: true,
+        symbol: 'none',
+        areaStyle: {},
+        data: data2
+      }
+    ]
+  };
+
+  option && myChart.setOption(option);
 })
