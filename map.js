@@ -297,6 +297,13 @@ map.on('load', async function () {
         }
       })
     }
+
+    if (currentSection >= 22){
+      $('.zoomTool').hide()
+    } else {
+      $('.zoomTool').show()
+    }
+
     // 阻止默认滚动行为  
     return false;
   });
@@ -479,7 +486,7 @@ let riJunKeliu = [
     color: '#c4984f'
   },
   {
-    name: '浦江线',
+    name: 'Pujiang',
     kl1: 11,
     kl2: 7,
     color: '#008B9A'
@@ -596,7 +603,7 @@ riJunKeliu = [
     color: '#c4984f'
   },
   {
-    name: '浦江线',
+    name: 'Pujiang',
     kl1: 11,
     kl2: 7,
     color: '#008B9A'
@@ -660,49 +667,49 @@ $('#chart1').on('mouseover', '.item', function () {
 
 let stationsData = [
   {
-    'weekday': { name: '世纪大道', lines: ['2号线', '4号线', '6号线', '9号线'], kl: 50 },
-    'holiday': { name: '人民广场', lines: ['1号线', '2号线', '8号线'], kl: 30 }
+    'weekday': { name: 'Century Avenue', lines: ['2号线', '4号线', '6号线', '9号线'], kl: 50 },
+    'holiday': { name: 'People\'s Square', lines: ['1号线', '2号线', '8号线'], kl: 30 }
   },
   {
-    'weekday': { name: '人民广场', lines: ['1号线', '2号线', '8号线'], kl: 46 },
-    'holiday': { name: '世纪大道', lines: ['2号线', '4号线', '6号线', '9号线'], kl: 24 }
+    'weekday': { name: 'People\'s Square', lines: ['1号线', '2号线', '8号线'], kl: 46 },
+    'holiday': { name: 'Century Avenue', lines: ['2号线', '4号线', '6号线', '9号线'], kl: 24 }
   },
   {
-    'weekday': { name: '徐家汇', lines: ['1号线', '9号线', '11号线'], kl: 36 },
-    'holiday': { name: '虹桥火车站', lines: ['2号线', '10号线', '17号线'], kl: 22 }
+    'weekday': { name: 'Xujiahui', lines: ['1号线', '9号线', '11号线'], kl: 36 },
+    'holiday': { name: 'HQ Railway Station', lines: ['2号线', '10号线', '17号线'], kl: 22 }
   },
   {
-    'weekday': { name: '虹桥火车站', lines: ['2号线', '10号线', '17号线'], kl: 33 },
-    'holiday': { name: '徐家汇', lines: ['1号线', '9号线', '11号线'], kl: 20 }
+    'weekday': { name: 'HQ Railway Station', lines: ['2号线', '10号线', '17号线'], kl: 33 },
+    'holiday': { name: 'Xujiahui', lines: ['1号线', '9号线', '11号线'], kl: 20 }
   },
   {
-    'weekday': { name: '汉中路', lines: ['1号线', '12号线', '13号线'], kl: 27 },
-    'holiday': { name: '南京东路', lines: ['2号线', '10号线'], kl: 19 }
+    'weekday': { name: 'Hanzhong Rd', lines: ['1号线', '12号线', '13号线'], kl: 27 },
+    'holiday': { name: 'Nanjing Rd', lines: ['2号线', '10号线'], kl: 19 }
   },
   {
-    'weekday': { name: '静安寺', lines: ['2号线', '7号线', '14号线'], kl: 27 },
-    'holiday': { name: '静安寺', lines: ['2号线', '7号线', '14号线'], kl: 15 }
+    'weekday': { name: 'Jinan Temple', lines: ['2号线', '7号线', '14号线'], kl: 27 },
+    'holiday': { name: 'Jinan Temple', lines: ['2号线', '7号线', '14号线'], kl: 15 }
   },
   {
-    'weekday': { name: '南京东路', lines: ['2号线', '10号线'], kl: 26 },
-    'holiday': { name: '上海火车站', lines: ['1号线', '3号线', '4号线'], kl: 13 }
+    'weekday': { name: 'Nanjing Rd', lines: ['2号线', '10号线'], kl: 26 },
+    'holiday': { name: 'SH Railway Station', lines: ['1号线', '3号线', '4号线'], kl: 13 }
   },
   {
-    'weekday': { name: '龙阳路', lines: ['2号线', '7号线', '16号线', '18号线'], kl: 23 },
-    'holiday': { name: '龙阳路', lines: ['2号线', '7号线', '16号线', '18号线'], kl: 13 }
+    'weekday': { name: 'Longyang Rd', lines: ['2号线', '7号线', '16号线', '18号线'], kl: 23 },
+    'holiday': { name: 'Longyang Rd', lines: ['2号线', '7号线', '16号线', '18号线'], kl: 13 }
   },
   {
-    'weekday': { name: '辛庄', lines: ['1号线', '5号线'], kl: 21 },
-    'holiday': { name: '陕西南路', lines: ['1号线', '10号线', '12号线'], kl: 13 }
+    'weekday': { name: 'Xinzhuang', lines: ['1号线', '5号线'], kl: 21 },
+    'holiday': { name: 'Shanxi Rd', lines: ['1号线', '10号线', '12号线'], kl: 13 }
   },
   {
-    'weekday': { name: '陕西南路', lines: ['1号线', '10号线', '12号线'], kl: 21 },
-    'holiday': { name: '汉中路', lines: ['1号线', '12号线', '13号线'], kl: 11 }
+    'weekday': { name: 'Shanxi Rd', lines: ['1号线', '10号线', '12号线'], kl: 21 },
+    'holiday': { name: 'Hanzhong Rd', lines: ['1号线', '12号线', '13号线'], kl: 11 }
   }
 ]
 
 let htmlStas = ``
-htmlStas += `<div class="w_title">Top Ten Subway Stations with the Highest Average Workday Traffic</div><div class='h_title'>Top Ten Subway Stations with the Highest Average Weekend Traffic</div>`
+htmlStas += `<div class="w_title">Top Ten Subway Stations with the Highest Average Workday Traffic (10k)</div><div class='h_title'>Top Ten Subway Stations with the Highest Average Weekend Traffic</div>`
 
 stationsData.forEach((element, idx) => {
   const { name: w_name, lines: w_lines, kl: w_kl } = element['weekday']
@@ -777,7 +784,8 @@ $('#chart2').on('mouseover', '.item', function () {
 
 
 var chartDom = document.getElementById('echarts-main');
-var myChart = echarts.init(chartDom);
+var myChart = echarts.init(chartDom,{locale:'en'});
+// echarts.setLocale('en');
 var option;
 
 fetchSync('./data/flows_sh.json').then(data => {
@@ -787,6 +795,7 @@ fetchSync('./data/flows_sh.json').then(data => {
   })
   console.log('🐷', data2);
   option = {
+    lang: 'en',
     tooltip: {
       trigger: 'axis',
       position: function (pt) {
@@ -801,7 +810,13 @@ fetchSync('./data/flows_sh.json').then(data => {
       type: 'time',
       boundaryGap: false,
       axisLabel: {
-        color: '#fff'
+        color: '#fff',
+        formatter:  function (value, index) {
+          var date = new Date(value)
+          var year = date.getFullYear();
+          var month = date.getMonth() + 1; // 月份是从0开始的
+          return month === 1? year +'' :month + '';
+        }
       }
     },
     yAxis: {
@@ -827,7 +842,7 @@ fetchSync('./data/flows_sh.json').then(data => {
     ],
     series: [
       {
-        name: '日客流量',
+        name: 'Daily Passenger Flow',
         type: 'line',
         smooth: true,
         symbol: 'none',

@@ -165,7 +165,7 @@ section .container p {
 
 .zoomTool {
   position: fixed;
-  z-index: 1;
+  z-index: 1111;
   right: 20px;
   top: 50px;
   color: #ddd;

@@ -135,8 +135,8 @@ function showTooltip(d) {
         .style("top", `${d3.event.clientY - 70}px`)
         .html(`
                     <div style="display:flex; flex-direction:column; align-items: flex-start;">
-                        <div><b>year:</b> ${d.x}</div>
-                        <div><b>客流量:</b> ${d.y * 10} thousand</div>
+                        <div><b>Year:</b> ${d.x}</div>
+                        <div><b>Passenger Flow:</b> ${d.y * 10} thousand</div>
                     </div>
                 `);
 }

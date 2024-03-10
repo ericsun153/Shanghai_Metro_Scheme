@@ -1,4 +1,4 @@
-style.css$(async () => {
+$(async () => {
 
     const w_svg = d3.select("#worldSvg svg");
     const w_margin = { top: 20, right: 30, bottom: 30, left: 100 };
