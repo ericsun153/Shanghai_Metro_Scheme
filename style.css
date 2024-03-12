@@ -583,6 +583,37 @@ section .bar-container p {
   color: #fff;
 }
 
+.bar-container-5 {
+  position: absolute;
+  height: 630px;
+  left: 1;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 1000px;
+  box-shadow: 0 0 4px 4px rgb(115 115 115 / 50%);
+  background: #3d3b3b80;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bar-container-5 p{
+  text-indent: 2em;
+  color: #fff;
+}
+.image-container-5 {
+  position: absolute;
+  flex: 630px; /* Do not grow or shrink, set basis to 50% */
+  height: auto; /* Height to be determined by the content */
+  width: 50%; /* Set width to 50% of the parent */
+  background-image: url('./data/img/future.png'); /* Path to your image */
+  background-size: contain; /* Contain the image within the div without cropping */
+  background-position: center;
+}
+
 /* 通用 */
 .container-title{
   text-align: center;
