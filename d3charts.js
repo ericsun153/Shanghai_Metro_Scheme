@@ -1,8 +1,8 @@
-const width = 920;
-const height = 500;
+const width = 550;
+const height = 450;
 const margin = { top: 20, right: 30, bottom: 30, left: 50 };
 
-const svg = d3.select("svg")
+const svg = d3.select("#linesvg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -131,12 +131,12 @@ function removeCrosshair() {
 function showTooltip(d) {
     console.log(d,d3.event)
     tooltip.style("display", "block")
-        .style("left", `${d3.event.clientX - margin.left - (window.document.body.clientWidth / 2 - 500) + 100}px`)
-        .style("top", `${d3.event.clientY - 80}px`)
+        .style("left", `${d3.event.clientX - margin.left - (window.document.body.clientWidth / 2 - 500) + 300}px`)
+        .style("top", `${d3.event.clientY - 70}px`)
         .html(`
                     <div style="display:flex; flex-direction:column; align-items: flex-start;">
-                        <div><b>year:</b> ${d.x}</div>
-                        <div><b>客流量:</b> ${d.y * 10} thousand</div>
+                        <div><b>Year:</b> ${d.x}</div>
+                        <div><b>Passenger Flow:</b> ${d.y * 10} thousand</div>
                     </div>
                 `);
 }
