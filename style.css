@@ -614,6 +614,21 @@ section .bar-container p {
   background-position: center;
 }
 
+.fancy-word {
+  font-weight: bold; /* Makes the text bold */
+  color: #FF6347; /* Gives the text a distinct color, tomato for example */
+  font-size: 1.7em; /* Makes the text larger than the surrounding text */
+  font-family: 'Brush Script MT', cursive; /* A fancy font, ensure it's available or imported */
+  text-shadow: 1px 1px 2px #000; /* Optional: Adds a shadow to the text for more emphasis */
+}
+
+.fancy-word-1 {
+  color: white; /* Gives the text a distinct color, tomato for example */
+  font-size: 5.0em; /* Makes the text larger than the surrounding text */
+  font-family: 'Brush Script MT', cursive; /* A fancy font, ensure it's available or imported */
+  text-shadow: 1px 1px 2px #000; /* Optional: Adds a shadow to the text for more emphasis */
+}
+
 /* 通用 */
 .container-title{
   text-align: center;
