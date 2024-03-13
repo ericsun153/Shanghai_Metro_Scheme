@@ -563,13 +563,13 @@ section .bar-container p {
 
 .bar-container-4 {
   position: absolute;
-  height: 630px;
+  height: 700px;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   margin: auto;
-  width: 1000px;
+  width: 1300px;
   box-shadow: 0 0 4px 4px rgb(115 115 115 / 50%);
   background: #3d3b3b80;
   padding: 20px;

@@ -184,7 +184,7 @@ map.on('load', async function () {
     goingon = false;
     setTimeout(() => {
       goingon = true
-    }, 1200)
+    }, 2000)
 
 
     if (e.originalEvent.deltaY < 0) { // 向上滚动  
